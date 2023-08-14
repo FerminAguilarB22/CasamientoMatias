@@ -1,0 +1,49 @@
+.cajaFiesta {
+    padding: 40px 15px;
+  
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+  
+  .imgFiesta {
+    width: 7vh;
+    height: 6vh;
+  }
+  
+  .imgFiesta img {
+    width: 100%;
+  }
+  .infoFiesta {
+    text-align: center;
+  }
+  
+  .infoFiesta h2 {
+    font-family: Ballast;
+    font-size: 1.8rem;
+    color: #fff;
+    font-weight: lighter;
+  }
+  
+  .infoFiesta p {
+    margin: 6px 0px;
+    font-family: "Bitter";
+    font-weight: 100;
+    font-size: 1rem;
+    color: #fff;
+  }
+  
+  .infoFiesta button {
+    margin-top: 8px;
+    font-family: "Bitter";
+    font-weight: 100;
+    font-size: 0.9rem;
+    color: #977b66;
+    background: #fff;
+    border: none;
+    border-radius: 20px 0px;
+    padding: 5px;
+    height: 25px;
+    width: 50%;
+  }
