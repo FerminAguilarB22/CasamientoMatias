@@ -10,8 +10,9 @@ const InfoIglesia = () => {
             </div>
             <div className='infoIglesia'>
                 <h2>Ceremonia</h2>
-                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolores, cum? Nemo quam consequatur error at soluta non et saepe similique?</p>
-                <button>llegar a la ceremonia</button>
+                <p>La ceremonia se realizará el 28 de Julio a las 18:00 horas en la
+Parroquia Nuestra Señora Del Valle. Clickea en el botón y recibi las indicaciones de como llegar.</p>
+                <button><a href="https://goo.gl/maps/q6aenhbM5ht2eDzm8" >Llegar a la ceremonia</a></button>
             </div>
         </section>
     );

@@ -9,8 +9,8 @@ const InfoFiesta = () => {
         </div>
         <div className='infoFiesta'>
             <h2>Fiesta</h2>
-            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolores, cum? Nemo quam consequatur error at soluta non et saepe similique?</p>
-            <button>llegar a la fiesta</button>
+            <p>Después de la ceremonia festejaremos en el Salón Country San Pablo</p>
+            <button><a href="https://goo.gl/maps/b5StihnNmpyDoYtz9">Llegar a la fiesta</a></button>
         </div>
     </section>
     );

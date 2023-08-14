@@ -47,3 +47,7 @@
     height: 25px;
     width: 50%;
   }
+  .infoFiesta button a {
+    text-decoration: none;
+    color: #977b66;
+}
