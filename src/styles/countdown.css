@@ -1,0 +1,35 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Bitter:wght@500&family=Cinzel&family=Cormorant+Garamond:ital,wght@0,300;1,300&family=Montserrat:ital,wght@0,300;1,100&display=swap');
+
+.countdown{
+    background: #fff;
+    padding: 30px 20px ;
+    font-family: 'Cormorant Garamond', serif;
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.countdown-item{
+   width: 80px;
+   height: 80px;
+   border: 1px solid #3E403F;
+   border-radius: 50%;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   font-family: 'Bitter', serif;
+   color: #A59776;
+}
+
+.countdown-number{
+    margin-right: 4px;
+    font-size: 1.5rem;
+   
+}
+
+.countdown-label{
+    font-size: 1.1rem;
+}

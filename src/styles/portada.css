@@ -1,0 +1,42 @@
+@font-face {
+    font-family: Ballast;
+    src: url(../../public/Ballast.ttf);
+}
+@import url('https://fonts.googleapis.com/css2?family=Cinzel&family=Cormorant+Garamond:ital,wght@0,300;1,300&family=Montserrat:ital,wght@0,300;1,100&display=swap');
+
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.portada{
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.portada img{
+    width: 100%;
+    height: 100%;
+}
+.names-box{
+    position: absolute;
+    color: #3E403F;
+}
+
+.names-box h5 {
+    font-family: Ballast;
+    font-size: 1.7rem;
+    
+}
+.names-box h1 {
+    font-family: 'Cinzel', serif;
+    font-size: 2.6rem;
+    text-align: center;
+    font-weight: lighter;
+    
+}

@@ -1,11 +1,16 @@
 
 import './App.css';
+import CountDown from './components/CountDown';
+import Descanso from './components/Descanso';
+import Portada from './components/Portada.js';
 
 function App() {
   return (
-    <div>
-
-    </div>
+  <>
+    <Portada></Portada>
+    <Descanso></Descanso>
+  </>
+    
   );
 }
 
