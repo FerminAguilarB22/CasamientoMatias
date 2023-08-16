@@ -1,1 +1,90 @@
+.box {
+  background-color: #977b66;
+  padding-bottom: 12px;
+}
+.asistencia {
+  padding: 46px;
+  text-align: center;
+  font-family: "Bitter";
+  font-weight: 100;
+  font-size: 1rem;
+  color: #fff;
+}
+.asistencia button {
+  margin-top: 10px;
+  font-family: "Bitter";
+  font-weight: 100;
+  font-size: 0.9rem;
 
+  background: #fff;
+  border: none;
+  border-radius: 20px 0px;
+  padding: 5px;
+  height: 25px;
+  width: 50%;
+}
+.asistencia button a {
+  text-decoration: none;
+  color: #977b66;
+}
+
+.cajaRegalo {
+    padding: 10px 15px 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+  
+  .imgRegalo {
+    width: 14vh;
+    height: 12vh;
+  }
+  
+  .imgRegalo img {
+    width: 100%;
+  }
+  .infoRegalo {
+    text-align: center;
+  }
+
+  
+  .infoRegalo p {
+    margin: 6px 0px;
+    font-family: "Bitter";
+    font-weight: 100;
+    font-size: 1rem;
+    color: #fff;
+  }
+  
+  .infoRegalo button {
+    margin-top: 8px;
+    font-family: "Bitter";
+    font-weight: 100;
+    font-size: 0.9rem;
+    color: #977b66;
+    background: #fff;
+    border: none;
+    border-radius: 20px 0px;
+    padding: 5px;
+    height: 25px;
+    width: 50%;
+  }
+  .infoRegalo button a {
+    text-decoration: none;
+    color: #977b66;
+}
+
+.formaCurva{
+  text-align: center;
+  padding: 25px 50px;
+  background-color: #fff;
+  border-radius: 0px 80px;
+}
+
+.formaCurva p{
+  font-family: "Bitter";
+    font-weight: 100;
+    font-size: 1rem;
+    color:#977b66;
+}

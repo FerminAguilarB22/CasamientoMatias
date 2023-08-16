@@ -1,0 +1,73 @@
+.album-fotos{
+    padding: 50px 0px;
+    height: 145vh;
+}
+.nosotros{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 50px;
+}
+.nosotros h2{
+ font-size: 2.2rem;
+ font-family: Ballast;
+    font-weight: 200;
+}
+.corazon{
+    width: 9%;
+    
+}
+
+.corazon img {
+    width: 100%;
+}
+.pics-box{
+    position: relative;
+}
+
+.pic-templete{
+    background-color: rgb(222, 220, 216);
+    width: 40%;
+    height: 28vh;
+    padding: 7px 7px 35px 7px;
+}
+.pic-1{
+    transform: rotate(12deg);
+    position: absolute;
+    right: 15%;
+}
+.foto{
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+}
+
+.foto img{
+    width: 100%;
+}
+
+.pic-2{
+    transform: rotate(-20deg);
+    position: absolute;
+    top: 22vh;
+    right: 42%;
+}
+.pic-3{   
+    transform: rotate(20deg);
+    position: absolute;
+    top: 45vh;
+    right: 11%;
+}
+.pic-4{   
+    transform: rotate(10deg);
+    position: absolute;
+    top: 69vh;
+    right: 44%;
+    z-index: 1;
+}
+.pic-5{   
+    position: absolute;
+    top: 98vh;
+    right: 11%;
+    z-index: 2;
+}
