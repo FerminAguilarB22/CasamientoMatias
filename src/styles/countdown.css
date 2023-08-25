@@ -12,16 +12,15 @@
 }
 
 .countdown-item{
-    margin: 0px 3px;
+    margin: 0px 1px;
    color: #A59776;
 }
 
 .countdown-number{
-    margin-right: 4px;
-    font-size: 1.9rem;
+    font-size: 1.7rem;
    
 }
 
 .countdown-label{
-    font-size: 1.1rem;
+    font-size: 1rem;
 }

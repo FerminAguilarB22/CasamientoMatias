@@ -44,7 +44,7 @@
     border-radius: 9px;
     padding: 5px;
     height: 30px;
-    width: 50%;
+    min-width: 50%;
   }
   .infoFiesta button a {
     text-decoration: none;
