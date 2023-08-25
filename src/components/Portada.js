@@ -1,14 +1,15 @@
 import React from 'react';
 import '../styles/portada.css'
-import ImgPortada from '../resources/portada.jpeg'
+import ImgPortada from '../resources/foto principal-01.jpg'
 
 const Portada = () => {
     return (
     <section className='portada'>
         <img src={ImgPortada} alt="" />
+        <div className='efect'></div>
         <div className='names-box'>
-            <h1>Juan y Pili</h1>
-            <h5>nuestra gran aventura</h5>
+            <h1>Memi y Matias</h1>
+            <h5>NUESTRA GRAN AVENTURA</h5>
         </div>
     </section>
     );

@@ -2,6 +2,10 @@
     font-family: Ballast;
     src: url(../../public/Ballast.ttf);
 }
+@font-face {
+    font-family: England;
+    src: url(../../public/England.ttf);
+}
 @import url('https://fonts.googleapis.com/css2?family=Cinzel&family=Cormorant+Garamond:ital,wght@0,300;1,300&family=Montserrat:ital,wght@0,300;1,100&display=swap');
 
 
@@ -22,21 +26,31 @@
 .portada img{
     width: 100%;
     height: 100%;
+    object-fit: cover;
+}
+.efect{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.435);
 }
 .names-box{
     position: absolute;
-    color: #3E403F;
+    color: #ffffff;
+    top: 70%;
 }
 
 .names-box h5 {
-    font-family: Ballast;
-    font-size: 1.7rem;
+    font-family: 'Montserrat';
+    font-size: 1.2rem;
+    text-align: center;
     
 }
 .names-box h1 {
-    font-family: 'Cinzel', serif;
-    font-size: 2.6rem;
+    font-family: 'England';
+    font-size: 4.2rem;
     text-align: center;
-    font-weight: lighter;
+    font-weight: 100;
+    
     
 }

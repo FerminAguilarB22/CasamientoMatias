@@ -1,31 +1,36 @@
+@font-face {
+  font-family: Beyond Infinity;
+  src: url(/public/Beyond\ Infinity\ -\ Demo.ttf);
+}
+
 .box {
-  background-color: #977b66;
+  background-color: #fff;
   padding-bottom: 12px;
 }
 .asistencia {
   padding: 46px;
   text-align: center;
-  font-family: "Bitter";
-  font-weight: 100;
+  font-family: "Montserrat";
+  font-weight: 600;
   font-size: 1rem;
-  color: #fff;
+  color: #977b66;
 }
 .asistencia button {
   margin-top: 10px;
-  font-family: "Bitter";
-  font-weight: 100;
-  font-size: 0.9rem;
+  font-family: "Montserrat";
+  font-weight: 600;
+  font-size: 1rem;
 
-  background: #fff;
+  background: #977b66;
   border: none;
-  border-radius: 20px 0px;
+  border-radius: 20px;
   padding: 5px;
   height: 25px;
-  width: 50%;
+  width: 75%;
 }
 .asistencia button a {
   text-decoration: none;
-  color: #977b66;
+  color: #fff;
 }
 
 .cajaRegalo {
@@ -43,6 +48,7 @@
   
   .imgRegalo img {
     width: 100%;
+    filter: invert(1.5);
   }
   .infoRegalo {
     text-align: center;
@@ -51,40 +57,134 @@
   
   .infoRegalo p {
     margin: 6px 0px;
-    font-family: "Bitter";
-    font-weight: 100;
-    font-size: 1rem;
-    color: #fff;
+    font-family: "Montserrat";
+  font-weight: 600;
+  font-size: 1rem;
+    color: #977b66;
   }
   
   .infoRegalo button {
     margin-top: 8px;
-    font-family: "Bitter";
-    font-weight: 100;
-    font-size: 0.9rem;
-    color: #977b66;
-    background: #fff;
+    font-family: "Montserrat";
+  font-weight: 600;
+  font-size: 1rem;
+    color: #fff;
+    background: #977b66;
     border: none;
-    border-radius: 20px 0px;
+    border-radius: 10px;
     padding: 5px;
     height: 25px;
-    width: 50%;
+    width: 75%;
   }
   .infoRegalo button a {
     text-decoration: none;
-    color: #977b66;
+    color: #fff;
 }
 
 .formaCurva{
   text-align: center;
   padding: 25px 50px;
-  background-color: #fff;
-  border-radius: 0px 80px;
+  background-color: #977b66;
 }
 
 .formaCurva p{
-  font-family: "Bitter";
-    font-weight: 100;
-    font-size: 1rem;
-    color:#977b66;
+  font-family: "Montserrat";
+  font-weight: 600;
+  font-size: 1rem;
+    color:#fff;
+}
+
+
+.cajaMusica {
+  padding: 10px 15px 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.imgMusica {
+  width: 14vh;
+  height: 12vh;
+}
+
+.imgMusica img {
+  width: 100%;
+}
+.infoMusica {
+  text-align: center;
+}
+
+.infoMusica h5 {
+  margin: 6px 0px;
+  font-family: 'Montserrat';
+font-weight: 600;
+font-size: 1.4rem;
+  color: #977b66;
+}
+
+.infoMusica p {
+  margin: 6px 0px;
+  font-family: "Montserrat";
+font-weight: 600;
+font-size: 1rem;
+  color: #977b66;
+}
+
+.infoMusica button {
+  margin-top: 8px;
+  font-family: "Montserrat";
+font-weight: 600;
+font-size: 1rem;
+  color: #fff;
+  background: #977b66;
+  border: none;
+  border-radius: 10px;
+  padding: 5px;
+  height: 25px;
+  width: 60%;
+}
+
+.infoMusica a{
+  text-decoration: none;
+    color: #fff;
+}
+
+.dressCode{
+  text-align: center;
+  padding: 15px 10px;
+  background-color: #977b66;
+}
+
+.dressCode h5{
+  font-family: Beyond Infinity;
+  font-size: 3.8rem;
+  font-weight: 200;
+  color:#fff ;
+}
+
+.dressCode p{
+  font-family: 'Montserrat';
+  font-size: 1.4rem;
+  font-weight: 600;
+  color:#fff ;
+}
+
+
+.footer{
+  background-color: #977b66;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  font-family: 'Montserrat';
+  font-size: 0.8rem;
+}
+
+.footer p{
+  padding: 0px;
+  margin: 0px;
+  letter-spacing: 1.5px;
+  margin-right: 2px;
 }

@@ -1,5 +1,5 @@
 .cajaFiesta {
-    padding: 40px 15px;
+    padding: 20px 15px;
   
     display: flex;
     align-items: center;
@@ -8,8 +8,8 @@
   }
   
   .imgFiesta {
-    width: 7vh;
-    height: 6vh;
+    width: 10vh;
+    height: 10vh;
   }
   
   .imgFiesta img {
@@ -20,31 +20,30 @@
   }
   
   .infoFiesta h2 {
-    font-family: Ballast;
-    font-size: 1.8rem;
+    font-family: Beyond Infinity;
+    font-size: 2.8rem;
     color: #fff;
     font-weight: lighter;
   }
   
   .infoFiesta p {
     margin: 6px 0px;
-    font-family: "Bitter";
-    font-weight: 100;
+    font-family: "Montserrat";
+    font-weight: 600;
     font-size: 1rem;
     color: #fff;
   }
   
   .infoFiesta button {
     margin-top: 8px;
-    font-family: "Bitter";
-    font-weight: 100;
-    font-size: 0.9rem;
-    color: #977b66;
+    font-family: "Montserrat";
+    font-weight: 600;
+    font-size: 1rem;
     background: #fff;
     border: none;
-    border-radius: 20px 0px;
+    border-radius: 9px;
     padding: 5px;
-    height: 25px;
+    height: 30px;
     width: 50%;
   }
   .infoFiesta button a {

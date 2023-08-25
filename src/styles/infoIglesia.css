@@ -1,9 +1,13 @@
+@font-face {
+  font-family: Beyond Infinity;
+  src: url(../../public/Beyond\ Infinity\ -\ Demo.ttf);
+}
 .cajaCeremonias{
     background-color: #977b66;
 }
 
 .cajaIglesia {
-  padding: 40px 15px;
+  padding: 20px 15px;
 
   display: flex;
   align-items: center;
@@ -12,8 +16,8 @@
 }
 
 .imgIglesia {
-  width: 9vh;
-  height: 6vh;
+  width: 16vh;
+  height: 9vh;
 }
 
 .imgIglesia img {
@@ -24,31 +28,31 @@
 }
 
 .infoIglesia h2 {
-  font-family: Ballast;
-  font-size: 1.8rem;
+  font-family: Beyond Infinity;
+  font-size: 2.8rem;
   color: #fff;
   font-weight: lighter;
 }
 
 .infoIglesia p {
   margin: 6px 0px;
-  font-family: "Bitter";
-  font-weight: 100;
+  font-family: "Montserrat";
+  font-weight: 600;
   font-size: 1rem;
   color: #fff;
 }
 
 .infoIglesia button {
   margin-top: 8px;
-  font-family: "Bitter";
-  font-weight: 100;
-  font-size: 0.9rem;
+  font-family: "Montserrat";
+  font-weight: 600;
+  font-size: 1rem;
   
   background: #fff;
   border: none;
-  border-radius: 20px 0px;
+  border-radius: 9px;
   padding: 5px;
-  height: 25px;
+  height: 30px;
   width: 50%;
 }
 .infoIglesia button a {
@@ -56,12 +60,12 @@
     color: #977b66;
 }
 
-.cajaHojas{
+.cajaCorazon{
     display: flex;
     justify-content: center;
     width: 100%;
     height: 80px;
-    transform: rotate(150deg);
+    filter: brightness(0) invert(1);
 }
 
 .cajaHojas img{

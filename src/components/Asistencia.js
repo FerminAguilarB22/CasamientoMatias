@@ -5,7 +5,7 @@ const Asistencia = () => {
         <section className='box'>
         <div className='asistencia'>
             <p>Esperamos que nos puedas acompañar en este momento tan importante para nosotros. <br></br> Comfirmanos tu asistencia!</p>
-            <button><a href="https://goo.gl/maps/b5StihnNmpyDoYtz9">Confirmar asistencia</a></button>
+            <button><a href="https://forms.gle/NKgMXwQRv5oB4ivZ9">Confirmar asistencia</a></button>
         </div>
         </section>
     );

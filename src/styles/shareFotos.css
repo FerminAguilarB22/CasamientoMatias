@@ -1,0 +1,49 @@
+@font-face {
+    font-family: England;
+    src: url(../../public/England.ttf);
+}
+
+.cajaShare{
+    padding: 30px 15px 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+  
+.Titulo{
+font-family: England;
+font-size: 2.5rem;
+font-weight: 200;
+}
+
+  .infoShare {
+    text-align: center;
+  }
+
+  
+  .infoShare p {
+    margin: 6px 0px;
+    font-family: "Montserrat";
+  font-weight: 600;
+  font-size: 1rem;
+    color: #977b66;
+  }
+  
+  .infoShare button {
+    margin-top: 8px;
+    font-family: "Montserrat";
+  font-weight: 600;
+  font-size: 1rem;
+    color: #fff;
+    background: #977b66;
+    border: none;
+    border-radius: 10px;
+    padding: 5px;
+    height: 25px;
+    width: 75%;
+  }
+  .infoShare button a {
+    text-decoration: none;
+    color: #fff;
+}

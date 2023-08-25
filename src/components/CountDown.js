@@ -31,19 +31,19 @@ const CountDown = ({ targetDate }) => {
     <div className="countdown">
       <div className="countdown-item">
         <span className="countdown-number">{remainingTime.days}</span>
-        <span className="countdown-label">Días</span>
+        <span className="countdown-label">días ,</span>
       </div>
       <div className="countdown-item">
         <span className="countdown-number">{remainingTime.hours}</span>
-        <span className="countdown-label">Hs</span>
+        <span className="countdown-label">hs , </span>
       </div>
       <div className="countdown-item">
         <span className="countdown-number">{remainingTime.minutes}</span>
-        <span className="countdown-label">Min</span>
+        <span className="countdown-label">min , </span>
       </div>
       <div className="countdown-item">
         <span className="countdown-number">{remainingTime.seconds}</span>
-        <span className="countdown-label">Seg</span>
+        <span className="countdown-label">seg</span>
       </div>
     </div>
   );

@@ -9,8 +9,8 @@ const InfoFiesta = () => {
         </div>
         <div className='infoFiesta'>
             <h2>Fiesta</h2>
-            <p>Después de la ceremonia festejaremos en el Salón Country San Pablo</p>
-            <button><a href="https://goo.gl/maps/b5StihnNmpyDoYtz9">Llegar a la fiesta</a></button>
+            <p>Después de la ceremonia festejaremos en <br></br>Casa Quinta Los Nogales</p>
+            <button><a href="https://goo.gl/maps/NVTL6RPhRtkXmzeg9">Llegar a la fiesta</a></button>
         </div>
     </section>
     );
