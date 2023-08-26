@@ -4,7 +4,7 @@
 }
 
 .cajaShare{
-    padding: 30px 15px 30px;
+    padding: 45px 20px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -34,15 +34,14 @@ color: #977b66;
   .infoShare button {
     margin-top: 8px;
     font-family: "Montserrat";
-  font-weight: 600;
-  font-size: 1rem;
-    color: #fff;
+    font-weight: 600;
+    font-size: 1rem;
     background: #977b66;
     border: none;
-    border-radius: 10px;
+    border-radius: 9px;
     padding: 5px;
-    height: 25px;
-    width: 75%;
+    height: 30px;
+    min-width: 70%;
   }
   .infoShare button a {
     text-decoration: none;

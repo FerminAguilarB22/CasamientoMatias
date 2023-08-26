@@ -31,15 +31,15 @@ const CountDown = ({ targetDate }) => {
     <div className="countdown">
       <div className="countdown-item">
         <span className="countdown-number">{remainingTime.days}</span>
-        <span className="countdown-label">días ,</span>
+        <span className="countdown-label">días,</span>
       </div>
       <div className="countdown-item">
         <span className="countdown-number">{remainingTime.hours}</span>
-        <span className="countdown-label">hs , </span>
+        <span className="countdown-label">hs,</span>
       </div>
       <div className="countdown-item">
         <span className="countdown-number">{remainingTime.minutes}</span>
-        <span className="countdown-label">min , </span>
+        <span className="countdown-label">min,</span>
       </div>
       <div className="countdown-item">
         <span className="countdown-number">{remainingTime.seconds}</span>
