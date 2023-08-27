@@ -38,8 +38,7 @@ const Regalo = () => {
       </section>
       <div className="formaCurva">
         <p>
-          En el salón tambien se encontrara un buzón por si queres hacernos el
-          regalo ese mismo diá.
+          Ese diá se encontrara un buzón en el salon.
         </p>
       </div>
     </section>
