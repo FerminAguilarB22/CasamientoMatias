@@ -30,7 +30,7 @@ const Regalo = () => {
                 <p>ICBC Alias: memiymatias.23</p>
                 <h5>Tienda de Regalos</h5>
                 <p><a href="https://instagram.com/plaza_yerbabuena?igshid=MzRlODBiNWFlZA==">Plaza Yerba Buena</a></p>
-                <p><a href="https://instagram.com/plaza_yerbabuena?igshid=MzRlODBiNWFlZA==">Pato Gallo deco Bazar</a></p>
+                <p><a href="https://instagram.com/patogallo_decobazar?igshid=MzRlODBiNWFlZA==">Pato Gallo deco Bazar</a></p>
               </Contenido>
             </Modal>
           </div>
