@@ -1,4 +1,5 @@
 import React from "react";
+import '../App.css';
 import regalo from "../resources/regalo.png";
 import styled from "styled-components";
 import Modal from "./Modal";
@@ -29,18 +30,22 @@ const Regalo = () => {
                 <h5>Transferencias</h5>
                 <p>ICBC Alias: memiymatias.23</p>
                 <h5>Tienda de Regalos</h5>
-                <p><a href="https://instagram.com/plaza_yerbabuena?igshid=MzRlODBiNWFlZA==">Plaza Yerba Buena</a></p>
-                <p><a href="https://instagram.com/patogallo_decobazar?igshid=MzRlODBiNWFlZA==">Pato Gallo deco Bazar</a></p>
+                <p>
+                  <a href="https://instagram.com/plaza_yerbabuena?igshid=MzRlODBiNWFlZA==">
+                    Plaza Yerba Buena
+                  </a>
+                </p>
+                <p>
+                  <a href="https://instagram.com/patogallo_decobazar?igshid=MzRlODBiNWFlZA==">
+                    Pato Gallo deco Bazar
+                  </a>
+                </p>
+                <p className="buzon">Ese diá se encontrara un buzón en el salon.</p>
               </Contenido>
             </Modal>
           </div>
         </div>
       </section>
-      <div className="formaCurva">
-        <p>
-          Ese diá se encontrara un buzón en el salon.
-        </p>
-      </div>
     </section>
   );
 };
@@ -85,10 +90,14 @@ const Contenido = styled.div`
   }
 
   p {
-    margin: 6px 0px;
+    margin: 5px 0px;
     font-family: "Montserrat";
     font-weight: 600;
     font-size: 1rem;
     color: #977b66;
   }
+  .buzon{
+    margin-top: 45px;
+  }
+
 `;
