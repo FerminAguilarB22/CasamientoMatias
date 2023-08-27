@@ -64,7 +64,7 @@ const BotonCerrar = styled.button`
   cursor: pointer;
   transition: 0.3s ease all;
   border-radius: 5px;
-  color: #000;
+  color: #fff;
 
   &:hover {
     background: #f2f2f2;
