@@ -16,7 +16,7 @@
   color: #977b66;
 }
 .asistencia button {
-    margin-top: 8px;
+    margin-top: 15px;
     font-family: "Montserrat";
     font-weight: 600;
     font-size: 1rem;
@@ -25,7 +25,7 @@
     border-radius: 9px;
     padding: 5px;
     height: 30px;
-    min-width: 50%;
+    min-width: 85px;
 }
 .asistencia button a {
   text-decoration: none;
@@ -41,13 +41,12 @@
   }
   
   .imgRegalo {
-    width: 14vh;
-    height: 12vh;
+    width: 9vh;
+    height: 9vh;
   }
   
   .imgRegalo img {
     width: 100%;
-    filter: invert(1.5);
   }
   .infoRegalo {
     text-align: center;
@@ -70,9 +69,9 @@
     background: #977b66;
     border: none;
     border-radius: 9px;
-    padding: 5px;
+    padding: 0px 5px;
     height: 30px;
-    min-width: 70%;
+
   }
   .infoRegalo button a {
     text-decoration: none;
@@ -94,7 +93,7 @@
 
 
 .cajaMusica {
-  padding: 30px 20px 45px 20px;
+  padding: 30px 10px 45px 10px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -102,7 +101,7 @@
 }
 
 .imgMusica {
-  width: 14vh;
+  width: 12vh;
   height: 12vh;
 }
 
@@ -182,6 +181,6 @@ font-size: 1rem;
 .footer p{
   padding: 0px;
   margin: 0px;
-  letter-spacing: 1.5px;
+  letter-spacing: 1px;
   margin-right: 2px;
 }

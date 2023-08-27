@@ -5,7 +5,6 @@ import Modal from "./Modal";
 import { useState } from "react";
 
 const Regalo = () => {
-
   const [estadoModal, setEstadoModal] = useState(false);
   return (
     <section className="box">
@@ -22,21 +21,16 @@ const Regalo = () => {
                   setEstadoModal(!estadoModal);
                 }}
               >
-                Ver mas
+                Ver más
               </Boton>
             </ContenedorBotones>
             <Modal estadoModal={estadoModal} cambiarEstado={setEstadoModal}>
               <Contenido>
                 <h5>Transferencias</h5>
-                <p>
-                  Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                  Debitis, quod.
-                </p>
+                <p>ICBC Alias: memiymatias.23</p>
                 <h5>Tienda de Regalos</h5>
-                <p>
-                  Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                  Debitis, quod.
-                </p>
+                <p><a href="https://instagram.com/plaza_yerbabuena?igshid=MzRlODBiNWFlZA==">Plaza Yerba Buena</a></p>
+                <p><a href="https://instagram.com/plaza_yerbabuena?igshid=MzRlODBiNWFlZA==">Pato Gallo deco Bazar</a></p>
               </Contenido>
             </Modal>
           </div>
@@ -44,8 +38,8 @@ const Regalo = () => {
       </section>
       <div className="formaCurva">
         <p>
-          En el salon tambien se encontrara una urna por si queres hacernos el
-          regalo ese mismo dia.
+          En el salón tambien se encontrara un buzón por si queres hacernos el
+          regalo ese mismo diá.
         </p>
       </div>
     </section>
@@ -55,7 +49,7 @@ const Regalo = () => {
 export default Regalo;
 
 const ContenedorBotones = styled.div`
-  padding: 40px;
+  padding: 0px;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -75,7 +69,7 @@ const Boton = styled.button`
   transition: 0.3s ease all;
 
   &:hover {
-    background: #A59776;
+    background: #a59776;
   }
 `;
 
@@ -86,17 +80,16 @@ const Contenido = styled.div`
 
   h5 {
     font-family: Beyond Infinity;
-  font-size: 2.8rem;
-  color: #977b66;
-  font-weight: lighter;
+    font-size: 2.8rem;
+    color: #977b66;
+    font-weight: lighter;
   }
 
   p {
     margin: 6px 0px;
     font-family: "Montserrat";
-  font-weight: 600;
-  font-size: 1rem;
+    font-weight: 600;
+    font-size: 1rem;
     color: #977b66;
   }
-
 `;

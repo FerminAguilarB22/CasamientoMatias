@@ -6,7 +6,7 @@ const Modal = ({children, estadoModal, cambiarEstado}) => {
     {estadoModal  && 
       <Overlay onClick={()=>{cambiarEstado(!estadoModal)}}>
         <ContenedorModal>
-          <BotonCerrar onClick={()=>{cambiarEstado(!estadoModal)}}>
+          <BotonCerrar id='boton' onClick={()=>{cambiarEstado(!estadoModal)}}>
             <svg
               xmlns="http://www.w3.org/2000/svg"
               width="16"
@@ -51,30 +51,20 @@ margin: 7px;
   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
   padding: 20px;
 `;
-// const EncabezadoModal = styled.div`
-//   margin-bottom: 20px;
-//   padding-bottom: 20px;
-//   border-bottom: 1px solid #e8e8e8;
 
-//   h3 {
-//     font-weight: 500;
-//     font-size: 16px;
-//     color: #1766dc;
-//   }
-// `;
 
 const BotonCerrar = styled.button`
   position: absolute;
   top: 2px;
   right: 20px;
-  max-width: 30px;
-  height: 30px;
+  max-width: 10%;
+  height: 35px;
   border: none;
   background: none;
   cursor: pointer;
   transition: 0.3s ease all;
   border-radius: 5px;
-  color: #1766dc;
+  color: #000;
 
   &:hover {
     background: #f2f2f2;
