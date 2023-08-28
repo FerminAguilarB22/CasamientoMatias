@@ -40,7 +40,7 @@ const Regalo = () => {
                     Pato Gallo deco Bazar
                   </a>
                 </p>
-                <p className="buzon">Ese diá se encontrara un buzón en el salon.</p>
+                <p className="buzon">Ese diá se encontrará un buzón en el salón.</p>
               </Contenido>
             </Modal>
           </div>
